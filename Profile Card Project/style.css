@@ -1,0 +1,142 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+
+#card {
+  border: 5px solid greenyellow;
+  border-radius: 9px;
+  height: 550px;
+  width: 400px;
+  padding: 15px;
+  background-color:rgba(36,32,60,255);
+  color: whitesmoke;
+}
+
+#first-icon{
+  margin-top: 10px;
+}
+
+#second-icon {
+ position: relative;
+ left:352px;
+ bottom: 18px;
+}
+
+img[alt="profile-image"] {
+  scale: 0.2;
+  position: relative;
+  bottom: 410px;
+  right: 275px;
+  border-radius: 50%;
+}
+
+#heading-text {
+ position: relative;
+ bottom: 770px;
+ text-align: center;
+}
+
+#heading-text p {
+  position: relative;
+  top:10px;
+}
+
+img[alt="youtube"]{
+  scale: 0.6;
+  position: relative;
+  bottom: 777px;
+}
+
+#my-heading-text h2 {
+  position: relative;
+  bottom: 860px;
+  left: 140px;
+}
+
+#my-heading-text button {
+  position: relative;
+  bottom: 860px;
+  left: 200px;
+  width: 100px;
+  background-color: red;
+  height: 38px;
+  padding: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#main-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0px;
+  position: relative;
+  bottom: 865px;
+  right:10px;
+}
+img[alt="whatsapp"]{
+  scale:0.5;
+}
+img[alt="facebook"]{
+  scale:0.5;
+}
+
+#last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 990px;
+  gap: 0px;
+  right: 10px;
+}
+
+img[alt="heart"]{
+  scale: 0.1;
+  position: relative;
+  top: 5px;
+  right: 45px;
+}
+
+#heading-text-01 p {
+  position: relative;
+  left: 90px;
+  bottom: 145px;
+}
+
+img[alt="comment"]{
+  scale: 0.2;
+  position: relative;
+  right: 45px;
+ bottom: 4px;
+}
+
+#heading-text-02 p {
+  position: relative;
+  left: 40px; 
+  bottom: 80px;
+}
+
+img[alt="share"]{
+  scale: 0.2;
+  position: relative;
+  right:20px;
+  bottom: 4px;
+}
+
+#heading-text-03 p {
+  position: relative;
+  left: 60px;
+  bottom: 78px;
+}
+
+
