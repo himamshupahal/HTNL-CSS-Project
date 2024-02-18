@@ -11,6 +11,8 @@ body {
  height: 100vh;
 }
 
+@media screen {
+  
 #card {
   border: 5px solid greenyellow;
   border-radius: 9px;
@@ -139,4 +141,4 @@ img[alt="share"]{
   bottom: 78px;
 }
 
-
+}
